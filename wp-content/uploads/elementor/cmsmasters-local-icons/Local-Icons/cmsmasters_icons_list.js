@@ -1,0 +1,1 @@
+{"icons":["addiction","amputation","arrow-circle","arrow-down","arrow-left","arrow-right","arrow-up","brain","cancel","check","chevron-down","dropdown-down","chevron-left","chevron-right","chevron-up","dropdown-up","date","heart","injury","menu","neurology","newsletter","orthopedics","outpatient","search","spinal-cord","Star","stroke","time","wheelchair"]}

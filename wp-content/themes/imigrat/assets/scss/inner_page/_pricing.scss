@@ -1,0 +1,124 @@
+.imi-pricing-feed-content {
+	padding-top: 50px;
+}
+.imi-pricing-feed-item {
+	border-radius: 10px;
+	padding-bottom: 60px;
+	margin-bottom: 30px;
+	border: 1px solid #3C67FF26;
+	.price-title {
+		color: #061D25;
+		font-size: 25px;
+		font-weight: 500;
+		padding: 30px 30px 0px;
+		letter-spacing: -0.02em;
+	}
+	.imi-price-value-text {
+		padding: 30px;
+		margin-bottom: 25px;
+		h3 {
+			font-size: 38px;
+			font-weight: 700;
+			padding: 15px 0px 5px;
+			color: var(--base-color);
+			span {
+				font-size: 24px;
+				margin-left: 5px;
+				font-weight: 400;
+			}
+		}
+		p {
+			margin: 0 auto;
+			max-width: 340px;
+		}
+	}
+	.imi-price-list-area {
+		li {
+			color: #000000;
+			padding-top: 15px;
+			margin-bottom: 15px;
+			position: relative;
+			&:before {
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				content: '';
+				opacity: 0.5;
+				position: absolute;
+				background: radial-gradient(50% 50% at 50% 50%, #3C67FF 0%, rgba(60, 103, 255, 0) 100%);
+			}
+		}
+	}
+	.imi-price-btn {
+		margin-top: 40px;
+		a {
+			color: #fff;
+			font-weight: 500;
+			padding: 17px 45px;
+			border-radius: 3px;
+			display: inline-block;
+			background-color: var(--base-color);
+			i {
+				font-size: 18px;
+				transform: rotate(-45deg);
+			}
+		}
+	}
+	&.center-item {
+		background-color: #3c67ff;
+		border: 1px solid var(--base-color);
+		.price-title  {
+			color: #fff;
+		}
+		.imi-price-list-area {
+			li {
+				color: #fff;
+				&:before {
+					background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+				}
+			}
+		}
+		.imi-price-btn {
+			a {
+				color: var(--base-color);
+				background-color: #fff;
+			}
+		}
+	}
+}
+.imi-pricing-about-section {
+	margin: 0px 60px;
+	overflow: hidden;
+	background-color: #000000;
+	.side-shape1 {
+		top: 0;
+		left: -20px;
+	}
+	.imi-pricing-about-content {
+		padding: 115px 0px;
+	}
+	.imi-price-about-img {
+		top: 0;
+		right: 0;
+		overflow: hidden;
+		.side-shape2 {
+			bottom: 0;
+			right: -30px;
+		}
+	}
+	.imi-pricing-about-txxt {
+		.imi-section-title-2 {
+			margin-bottom: 35px;
+			h2 {
+				color: #fff;
+				padding-bottom: 25px;
+			}
+			p {
+				color: #fff;
+				max-width: 650px;
+			}
+		}
+
+	}
+}

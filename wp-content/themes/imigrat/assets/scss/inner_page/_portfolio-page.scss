@@ -1,0 +1,61 @@
+.imi-portfolio-tab-btn {
+	margin: 50px 0px;
+	button {
+		margin: 0px 10px;
+		padding: 12px 20px;
+		text-transform: uppercase;
+		background-color: transparent;
+		transition: all 500ms ease;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		&:hover,
+		&.is-checked {
+			color: #fff;
+			background-color: var(--base-color);
+			border: 1px solid var(--base-color);
+		}
+	}
+}
+.imi-portfolio-filter-tab {
+	.filtr-container-area {
+		margin: 0 -15px;
+	}
+	.grid-size-33 {
+		width: 33.33%;
+	}
+	.grid-sizer {
+		width: 33.33%;
+	}
+	.grid-item {
+		float: left;
+		padding: 15px;
+		display: inline-block;
+	}
+}
+.imi-portfolio-feed-item {
+	overflow: hidden;
+	.portfolio-text {
+		left: 0;
+		right: 0;
+		width: 80%;
+		padding: 25px;
+		bottom: -100%;
+		margin: 0 auto;
+		transition: all 500ms ease;
+		background-color: var(--base-color);
+		span {
+			color: #fff;
+			display: block;
+			padding-bottom: 8px;
+		}
+		h3 {
+			color: #FFFFFF;
+			font-size: 28px;
+			font-weight: 500;
+		}
+	}
+	&:hover {
+		.portfolio-text {
+			bottom: 0;
+		}
+	}
+}

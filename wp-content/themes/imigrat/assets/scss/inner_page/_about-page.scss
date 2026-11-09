@@ -1,0 +1,212 @@
+.imi-about-page-about-section {
+	padding: 110px 0px;
+	.imi-section-title-2 {
+		max-width: 650px;
+	}
+}
+.imi-about-page-about-content {
+	padding-top: 60px;
+}
+.imi-about-page-img-wrapper {
+	.imi-about-exp-area {
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		padding: 50px 30px;
+		border: 4px solid #fff;
+		background-color: var(--base-color);
+		.trophy-icon {
+			left: 0;
+			right: 0;
+			top: 10px;
+			width: 100%;
+			z-index: -1;
+			opacity: 0.02;
+			text-align: center;
+		}
+		h3 {
+			color: #fff;
+			font-size: 50px;
+			padding-bottom: 15px;
+		}
+		p {
+			color: #fff;
+			font-size: 18px;
+			max-width: 140px;
+			line-height: 25px;
+		}
+	}
+}
+.imi-about-page-text-area {
+	padding-left: 50px;
+	.imi-about-text-desc {
+		margin-bottom: 30px;
+		p {
+			padding-bottom: 20px;
+		}
+	}
+	.imi-about-feature-list-2 li:before {
+		background-color: var(--base-color);
+	}
+}
+.imi-counter-content-2 {
+	.imi-counter-item p {
+		color: var(--base-color);
+		font-family: var(--body-font-2);
+	}
+	.imi-counter-item h3 {
+		font-weight: 400;
+	}
+}
+.imi-team-section-3 {
+	padding: 110px 0px 70px;
+}
+.imi-team-content-3 {
+	padding-top: 50px;
+}
+.imi-team-item-3 {
+	overflow: hidden;
+	margin-bottom: 40px;
+	.imi-team-img-social-btn {
+		&:before {
+			top: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			height: 100%;
+			content: '';
+			width: 100%;
+			visibility: hidden;
+			position: absolute;
+			transform: scale(.5);
+			transition: all 500ms ease;
+			background-color: rgba(60, 103, 255, 0.5);
+		}
+	}
+	.imi-team-btn {
+		left: 0;
+		top: 60%;
+		right: 0;
+		opacity: 0;
+		visibility: hidden;
+		text-align: center;
+		position: absolute;
+		transform: translateY(-50%);
+		transition: all 500ms ease;
+		a {
+			color: #fff;
+			font-weight: 500;
+			padding: 18px 42px;
+			border-radius: 3px;
+			display: inline-block;
+			border: 1px solid #FFFFFF;
+			font-family: var(--body-font-2);
+			background-color: var(--base-color);
+			i {
+				font-size: 18px;
+				margin-left: 8px;
+				transform: rotate(-45deg);
+			}
+		}
+	}
+	.imi-team-social {
+		bottom: 0;
+		opacity: 0;
+		left: -50px;
+		display: flex;
+		position: absolute;
+		padding: 13px 15px;
+		visibility: hidden;
+		background-color: #fff;
+		transition: all 400ms ease;
+		a {
+			width: 30px;
+			height: 30px;
+			display: flex;
+			margin-right: 13px;
+			align-items: center;
+			border-radius: 100%;
+			color: var(--base-color);
+			justify-content: center;
+			border: 1px solid var(--base-color);
+			&:last-child {
+				margin-right: 0;
+			}
+			&:hover {
+				color: #fff;
+				background-color: var(--base-color);
+			}
+		}
+	}
+	.imi-team-text {
+		margin-top: 30px;
+		h3 {
+			color: #000000;
+			font-size: 22px;
+			font-weight: 500;
+			padding-bottom: 5px;
+		}
+		span {
+			color: #000000;
+			font-weight: 300;
+		}
+	}
+	&:hover {
+		.imi-team-img-social-btn {
+			&:before {
+				opacity: 1;
+				visibility: visible;
+				transform: scale(1);
+			}
+		}
+		.imi-team-btn {
+			top: 50%;
+			opacity: 1;
+			visibility: visible;
+			transition-delay: .2s;
+		}
+		.imi-team-social {
+			left: 0;
+			opacity: 1;
+			visibility: visible;
+			transition-delay: .4s;
+		}
+	}
+}
+.imi-testimonial-section-3 { 
+	margin: 0px 60px;
+	background-color: #000000;
+}
+.imi-testimonial-content-3 {
+	.imi-testimonial-img-2 .imi-testimonial-shape1 {
+		left: 0;
+	}
+	.imi-testimonial-slider-area-2 .swiper-paginations_3 .swiper-pagination-bullet.swiper-pagination-bullet-active {
+		background-color: var(--base-color);
+	}
+	.imi-testimonial-slider-content-2 .imi-testimonial-slider-item-2 .testimonial-text {
+		font-weight: 300;
+		font-family: var(--body-font);
+	}
+}
+.imi-testimonial-section-3 .imi-visa-category-shape3 {
+	top: 0;
+	right: 0;
+}
+.imi-blog-content-3 {
+	padding-top: 50px;
+	.imi-blog-item-2 .imi-blog-date {
+		font-family: var(--headline);
+		background-color: var(--base-color);
+	}
+	.imi-blog-item-2 .imi-blog-meta a i {
+		color: var(--base-color);
+	}
+	.imi-blog-item-2 .imi-blog-text h3 {
+		font-weight: 500;
+		padding-bottom: 15px;
+	}
+	.imi-blog-item-2 .imi-blog-text .read_more {
+		margin-top: 20px;
+	}
+}

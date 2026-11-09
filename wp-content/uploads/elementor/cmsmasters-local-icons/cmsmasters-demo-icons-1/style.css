@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'cmsmasters-demo-icons';
+  src:  url('fonts/cmsmasters-demo-icons.eot?q9c9z6');
+  src:  url('fonts/cmsmasters-demo-icons.eot?q9c9z6#iefix') format('embedded-opentype'),
+    url('fonts/cmsmasters-demo-icons.ttf?q9c9z6') format('truetype'),
+    url('fonts/cmsmasters-demo-icons.woff?q9c9z6') format('woff'),
+    url('fonts/cmsmasters-demo-icons.svg?q9c9z6#cmsmasters-demo-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cms-demo-icon-"], [class*=" cms-demo-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cmsmasters-demo-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cms-demo-icon-accident:before {
+  content: "\e900";
+}
+.cms-demo-icon-arrow:before {
+  content: "\e901";
+}
+.cms-demo-icon-business:before {
+  content: "\e902";
+}
+.cms-demo-icon-cash:before {
+  content: "\e903";
+}
+.cms-demo-icon-chevron-down:before {
+  content: "\e904";
+}
+.cms-demo-icon-chevron-left:before {
+  content: "\e905";
+}
+.cms-demo-icon-chevron-right:before {
+  content: "\e906";
+}
+.cms-demo-icon-chevron-up:before {
+  content: "\e907";
+}
+.cms-demo-icon-column:before {
+  content: "\e908";
+}
+.cms-demo-icon-contract:before {
+  content: "\e909";
+}
+.cms-demo-icon-court:before {
+  content: "\e90a";
+}
+.cms-demo-icon-diagonal-arrow:before {
+  content: "\e90b";
+}
+.cms-demo-icon-earnings:before {
+  content: "\e90c";
+}
+.cms-demo-icon-insurance:before {
+  content: "\e90d";
+}
+.cms-demo-icon-justice:before {
+  content: "\e90e";
+}
+.cms-demo-icon-menu:before {
+  content: "\e90f";
+}
+.cms-demo-icon-phone:before {
+  content: "\e910";
+}
+.cms-demo-icon-plus:before {
+  content: "\e911";
+}
+.cms-demo-icon-quote:before {
+  content: "\e912";
+}
+.cms-demo-icon-search:before {
+  content: "\e913";
+}
+.cms-demo-icon-signature:before {
+  content: "\e914";
+}
+.cms-demo-icon-stamp:before {
+  content: "\e915";
+}
+.cms-demo-icon-trial:before {
+  content: "\e916";
+}
+.cms-demo-icon-cancel:before {
+  content: "\e917";
+}

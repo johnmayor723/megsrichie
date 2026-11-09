@@ -1,0 +1,82 @@
+.imi-title-top-select {
+	select {
+		height: 55px;
+		width: 190px;
+		padding: 0px 20px;
+		appearance: none;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	&:before {
+		top: 15px;
+		right: 15px;
+		content: '\f107';
+		font-weight: 400;
+		position: absolute;
+		font-family: 'Font Awesome 5 Pro';
+	}
+}
+.imi-shop-product-section {
+
+}
+.imi-shop-product-feed-content {
+	padding-top: 50px;
+}
+.imi-shop-product-item {
+	margin-bottom: 45px;
+	.product-img-btn {
+		height: 450px;
+		transition: all 500ms ease;
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+	.product-btn {
+		left: 0;
+		right: 0;
+		opacity: 0;
+		bottom: 0px;
+		margin: 0 auto;
+		position: absolute;
+		visibility: hidden;
+		text-align: center;
+		transition: all 500ms ease;
+		a {
+			color: #fff;
+			font-weight: 400;
+			font-size: 20px;
+			padding: 14px 30px;
+			display: inline-block;
+			background-color: var(--base-color);
+			i {
+				margin-right: 5px;
+			}
+		}
+	}
+	.product-text {
+		margin-top: 20px;
+		h3 {
+			color: #000000;
+			font-size: 30px;
+			font-weight: 600;
+			padding-bottom: 5px;
+		}
+		span {
+			font-weight: 600;
+			font-size: 20px;
+			color: #3c67ff;
+			del {
+				color: #666666;
+				font-weight: 400;
+				margin-left: 10px;
+			}
+		}
+	}
+	&:hover {
+		.product-img-btn {
+			background-color: rgba(60, 103, 255, .1);
+		}
+		.product-btn {
+			opacity: 1;
+			bottom: 40px;
+			visibility: visible;
+		}
+	}
+}

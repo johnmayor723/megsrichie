@@ -1,0 +1,123 @@
+.imi-blog-section-2 {
+	padding: 115px 0px 35px;
+}
+.imi-blog-content-2 {
+	padding-top: 50px;
+}
+.imi-blog-item-2 {
+	z-index: 1;
+	position: relative;
+	margin-bottom: 40px;
+	&:before {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 75%;
+		z-index: -1;
+		content: '';
+		position: absolute;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 47.5px 2.5px rgba(0, 0, 0, 0.1);
+	}
+	.imi-blog-img-date,
+	.imi-blog-text-meta {
+		margin: 0 auto;
+		max-width: 370px;	
+	}
+	.imi-blog-img {
+		overflow: hidden;
+		img {
+			transition: 500ms all ease;
+		}
+	}
+	.imi-blog-date {
+		right: 25px;
+		color: #fff;
+		width: 80px;
+		height: 90px;
+		bottom: -30px;
+		font-size: 36px;
+		font-weight: 600;
+		font-family: var(--heading-2);
+		background-color: var(--base-color-2);
+		span {
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			color: #fff;
+			display: block;
+			font-size: 13px;
+			padding: 5px 0px;
+			font-weight: 400;
+			position: absolute;
+			background-color: #061d25;
+			font-family: var(--body-font-2);
+		}
+	}
+	.imi-blog-text-meta {
+		padding: 25px 30px;
+	}
+	.imi-blog-meta {
+		a {
+			margin-right: 20px;
+			i {
+				margin-right: 5px;
+				color: var(--base-color-2);
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	.imi-blog-text {
+		margin-top: 10px;
+		h3 {
+			color: #061d25;
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 1.5;
+			padding-bottom: 22px;
+			letter-spacing: -1.5px;
+			border-bottom: 1px solid #e9f0f3 ;
+		}
+		.read_more {
+			color: #000000;
+			font-weight: 500;
+			margin-top: 25px;
+			letter-spacing: 2px;
+			display: inline-block;
+			i {
+				margin-left: 5px;
+				transform: rotate(-45deg);
+				transition: 500ms all ease;
+			}
+			&:hover {
+				color: #061d25;
+				i {
+					transform: rotate(0deg);
+				}
+			}
+		}
+	}
+	&:hover {
+		.imi-blog-img {
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+.imi-sponsor-slider-2 {
+	overflow: hidden;
+	padding: 50px 15px 120px 0px;
+	.imi-sponsor-item {
+		width: 210px;
+		height: 145px;
+		display: flex;
+		margin: 0px 15px;
+		align-items: center;
+		justify-content: center;
+		background-color: #fff;
+		box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+	}
+}

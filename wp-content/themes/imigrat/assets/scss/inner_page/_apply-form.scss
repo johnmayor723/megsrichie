@@ -1,0 +1,50 @@
+.imi-apply-form-area {
+	padding-left: 35px;
+	h3 {
+		color: #000000;
+		font-size: 40px;
+		font-weight: 500;
+		padding-bottom: 20px;
+	}
+	p {
+		padding-bottom: 30px;
+	}
+	input,textarea {
+		width: 100%;
+		height: 50px;
+		padding-left: 20px;
+		margin-bottom: 22px;
+		border: 1px solid #05151B26;
+		&::placeholder {
+			color: rgba(0, 0, 0, 0.5);
+		}
+	}
+	textarea {
+		height: 100px;
+		padding-top: 15px;
+	}
+	button {
+		border: none;
+		color: #fff;
+		border-radius: 2px;
+		padding: 10px 30px;
+		background-color: var(--base-color);
+		transition: all 500ms ease;
+		&:hover {
+			background-color: #000000;
+		}
+	}
+	.imi-cv-upload {
+		h4 {
+			color: #000000;
+			font-size: 18px;
+			font-weight: 500;
+			padding-bottom: 10px;
+		}
+		input {
+			height: auto;
+			border: none;
+			padding-left: 0;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Noto Serif Local';
+    src: url('NotoSerif-Regular.woff2') format('woff2'),
+        url('NotoSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Local';
+    src: url('NotoSerif-Medium.woff2') format('woff2'),
+        url('NotoSerif-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

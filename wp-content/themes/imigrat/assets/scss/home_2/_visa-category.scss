@@ -1,0 +1,136 @@
+.imi-visa-category-section {
+	z-index: 1;
+	margin: 0px 60px;
+	overflow: hidden;
+	padding: 120px 0px;
+	background-color: #061d25;
+	.imi-visa-category-shape1 {
+		top: -50px;
+		z-index: -1;
+		left: -190px;
+	}
+	.imi-visa-category-shape2 {
+		right: -190px;
+		bottom: -80px;
+		z-index: -1;
+	}
+	.imi-section-top-content {
+		.imi-section-title-2 {
+			h2 {
+				color: #fff;
+			}
+		}
+		.imi-title-top-text {
+			p {
+				color: #fff;
+			}
+		}
+	}
+}
+.imi-visa-category-content {
+	padding-top: 45px;
+}
+.imi-visa-category-slider {
+	overflow: hidden;
+	.swiper-paginations {
+		margin-top: 42px;
+		.swiper-pagination-bullet {
+			height: 8px;
+			width: 15px;
+			margin: 0px 7px;
+			border-radius: 0;
+			background-color: #3c8ba7;
+			transition: all 500ms ease;
+			&.swiper-pagination-bullet-active {
+				width: 33px;
+				background-color: var(--base-color-2);
+			}
+		}
+	}
+}
+.imi-visa-category-item {
+	max-width: 420px;
+	overflow: hidden;
+	padding-bottom: 45px;
+	.imi-visa-category-btn {
+		top: 0;
+		left: 0;
+		width: 85px;
+		height: 265px;
+		position: absolute;
+		writing-mode: vertical-lr;
+		a {
+			z-index: 1;
+			color: #fff;
+			width: 100%;
+			display: flex;
+			font-weight: 500;
+			align-items: center;
+			letter-spacing: 2px;
+			justify-content: center;
+			position: relative;
+			border: 1px solid #0e3441;
+			border-bottom: none;
+			background-color: #09232c;
+			&:before {
+				left: 0;
+				bottom: 0;
+				top: auto;
+				width: 100%;
+				z-index: -1;
+				height: 0%;
+				content: '';
+				position: absolute;
+				transition: all 500ms ease;
+				background-color: var(--base-color-2);
+			}
+			i {
+				font-size: 18px;
+				margin-top: 8px;
+				transform: rotate(45deg);
+				transition: all 500ms ease;
+			}
+		}
+	}
+	.imi-visa-category-img {
+		img {
+			transition: all 500ms ease;
+		}
+	}
+	.imi-visa-category-text {
+		left: 0;
+		bottom: 0;
+		padding: 25px;
+		max-width: 310px;
+		position: absolute;
+		border: 1px solid #0e3441;
+		background-color: #09232c;
+		h3 {
+			color: #fff;
+			font-size: 24px;
+			padding-bottom: 16px;
+		}
+		p {
+			color: #cccccc;
+		}
+	}
+	&:hover {
+		.imi-visa-category-img {
+			img {
+				transform: scale(1.05);
+			}
+		}
+		.imi-visa-category-btn {
+			a {
+				&:before {
+					top: 0;
+					bottom: auto;
+					height: 100%;
+				}
+				i {
+					transform: rotate(0);
+				}
+			}
+		}
+	}
+}

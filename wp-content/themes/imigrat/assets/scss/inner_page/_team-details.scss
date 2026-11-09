@@ -1,0 +1,160 @@
+.imi-team-details-info-text {
+	padding-left: 30px;
+	.team-details-title-designation {
+		padding-bottom: 20px;
+		h3 {
+			color: #000000;
+			font-size: 40px;
+			font-weight: 500;
+			padding-bottom: 15px;
+		}
+		span {
+			color: #3c67ff;
+			font-size: 18px;
+		}
+	}
+	.team-details-desc {
+		margin-bottom: 30px;
+	}
+	.imi-team-details-cta-item {
+		margin-bottom: 20px;
+		.cta-icon {
+			font-size: 25px;
+			margin-right: 15px;
+			color: var(--base-color);
+		}
+		.cta-text {
+			max-width: 260px;
+			h3 {
+				color: #000000;
+				font-size: 16px;
+				padding-bottom: 5px;
+				letter-spacing: 0.02em;
+			}
+			p {
+				color: #666666;
+			}
+		}
+	}
+	.imi-team-details-social {
+		margin-top: 40px;
+		h3 {
+			color: #000000;
+			font-size: 16px;
+			padding-bottom: 15px;
+		}
+		a {
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			margin-right: 15px;
+			border-radius: 100%;
+			display: inline-block;
+			color: var(--base-color);
+			border: 1px solid var(--base-color);
+			&:hover {
+				color: #fff;
+				background-color: var(--base-color);
+			}
+		}
+	}
+}
+.imi-team-details-text-desc {
+	margin-top: 55px;
+	h3 {
+		color: #000000;
+		font-size: 34px;
+		font-weight: 500;
+		padding-bottom: 18px;
+	}
+	p {
+		padding-bottom: 20px;
+	}
+}
+.imi-team-details-skill {
+	margin-top: 20px;
+}
+.imi-team-skill-progess {
+	margin-bottom: 30px;
+	h4 {
+		color: #061D25;
+		font-size: 16px;
+		font-weight: 500;
+		padding-bottom: 18px;
+	}
+	.progress {
+		height: 12px;
+		border-radius: 00;
+		position: relative;
+		overflow: visible;
+		border-radius: 10px;
+		background-color: rgba(60, 103, 255, .1);
+		span {
+			right: 0;
+			top: -40px;
+			font-size: 16px;
+			font-weight: 500;
+			position: absolute;
+			color: var(--base-color);
+		}
+	}
+	.progress-bar {
+		width: 0;
+		float: left;
+		height: 100%;
+		overflow: visible;
+		border-radius: 10px;
+		position: relative;
+		transition:  2s all ease-in-out;
+		background: var(--base-color);
+		&:before,
+		&:after {
+			top: -7px;
+			right: -3px;
+			width: 26px;
+			content: '';
+			height: 26px;
+			position: absolute;
+			border-radius: 100%;
+			background-color: var(--base-color);
+		}
+		&:after {
+			top: -2px;
+			right: 2px;
+			width: 15px;
+			height: 15px;
+			background-color: #fff;
+		}
+	}
+}
+.imi-team-details-form {
+	padding-left: 40px;
+	input,
+	textarea {
+		width: 100%;
+		height: 62px;
+		padding-left: 18px;
+		margin-bottom: 30px;
+		border: 1px solid #05151B26;
+		&::placeholder {
+			color: rgba(0, 0, 0, .5);
+		}
+	}
+	textarea {
+		height: 165px;
+		padding: 18px;
+	}
+	button {
+		color: #fff;
+		border: none;
+		font-weight: 500;
+		padding: 15px 40px;
+		border-radius: 5px;
+		background-color: var(--base-color);
+		i {
+			margin-left: 5px;
+			transform: rotate(-45deg);
+		}
+	}
+}

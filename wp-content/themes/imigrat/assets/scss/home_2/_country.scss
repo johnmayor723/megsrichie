@@ -1,0 +1,199 @@
+.imi-country-section,
+.imi-country-section-2 {
+	z-index: 1;
+	margin: 0px 60px;
+	overflow: hidden;
+	padding: 115px 0px 120px;
+	background-color: #061d25;
+	.imi-visa-category-shape1 {
+		top: -50px;
+		z-index: -1;
+		left: -190px;
+	}
+	.imi-visa-category-shape2 {
+		right: -190px;
+		bottom: -80px;
+		z-index: -1;
+	}
+}
+.imi-country-content {
+	.imi-section-title-2 {
+		margin-bottom: 40px;
+		h2 {
+			color: #fff;
+			padding-bottom: 35px;
+		}
+		p {
+			color: #f8eff1;
+			max-width: 570px;
+		}
+	}
+}
+.imi-country-section-2 {
+	background-color: #000000;
+	.imi-visa-category-shape1 {
+		top: 0px;
+		left: -50px;
+	}
+	.imi-visa-category-shape2 {
+		right: -50px;
+		bottom: 0px;
+	}
+	.imi-check-eligibility-area .eligibility-form button {
+		background-color: var(--base-color);
+	}
+	.imi-country-list-slider-area .swiper-paginations_2 .swiper-pagination-bullet.swiper-pagination-bullet-active {
+		background-color: var(--base-color);
+	}
+	.imi-check-eligibility-area .eligibility-form select {
+		background-color: #060a19;
+		border: 1px solid #3C67FF33
+	}
+	.imi-country-list-item {
+		background-color: #060a19;
+		border: 1px solid #3C67FF33
+	}
+}
+.imi-check-eligibility-area {
+	h3 {
+		color: #fff;
+		font-size: 22px;
+		font-weight: 500;
+		position: relative;
+		display: inline-block;
+		&:before {
+			bottom: 0;
+			width: 100%;
+			content: '';
+			height: 1px;
+			position: absolute;
+			background-color: #fff;
+		}
+	}
+	.eligibility-form {
+		margin-top: 45px;
+		select {
+			width: 100%;
+			height: 55px;
+			appearance: none;
+			padding-left: 20px;
+			border: 1px solid #0e3441;
+			background-color: #09232c;
+		}
+		button {
+			color: #fff;
+			border: none;
+			margin-top: 30px;
+			font-weight: 500;
+			overflow: hidden;
+			position: relative;
+			letter-spacing: 2px;
+			padding: 18px 40px 16px;
+			text-transform: uppercase;
+			background-color: var(--base-color-2);
+			i {
+				font-size: 18px;
+				transform: rotate(-45deg);
+				transition: all 500ms ease;
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: -75%;
+				z-index: 2;
+				display: block;
+				width: 50%;
+				height: 100%;
+				-webkit-transform: skewX(-25deg);
+				-khtml-transform: skewX(-25deg);
+				-moz-transform: skewX(-25deg);
+				-ms-transform: skewX(-25deg);
+				-o-transform: skewX(-25deg);
+				transform: skewX(-25deg);
+				background-image: linear-gradient(to right,rgba(255,255,255,.0),rgba(255,255,255,.6));
+				transition: all 500ms linear 0ms;
+			}
+			&:hover {
+				&:before {
+					animation: shine 1s;
+				}
+				i {
+					transform: rotate(0);
+				}
+			}
+		}
+	}
+}
+.imi-country-list-slider {
+	overflow: hidden;
+	height: 520px;
+	.swiper-slide {
+		height: 150px !important;
+	}
+}
+.imi-country-list-slider-area {
+	.swiper-paginations_2 {
+		top: 50%;
+		right: -40px;
+		position: absolute;
+		transform: translateY(-50%);
+		.swiper-pagination-bullet {
+			width: 8px;
+			height: 15px;
+			display: block;
+			margin: 7px 0px;
+			border-radius: 0;
+			background-color: #3c8ba7;
+			transition: all 500ms ease;
+			&.swiper-pagination-bullet-active {
+				height: 33px;
+				background-color: var(--base-color-2);
+			}
+		}
+	}
+}
+.imi-country-list-item {
+	padding: 15px;
+	border: 1px solid #0e3441;
+	background-color: #09232c;
+	.country-flag {
+		margin-right: 28px;
+	}
+	.country-text {
+		max-width: 385px;
+		h3 {
+			color: #fff;
+			font-size: 22px;
+			font-weight: 500;
+			padding-bottom: 15px;
+		}
+		li {
+			color: #fff;
+			position: relative;
+			padding-left: 18px;
+			margin-right: 5px;
+			&:before {
+				top: 0;
+				left: 0;
+				color: #fff;
+				content: '\f00c';
+				position: absolute;
+				font-weight: 300;
+				font-family: 'Font Awesome 5 Pro';
+			}
+			&:after {
+				right: -4px;
+				bottom: 0;
+				color: #fff;
+				content: ',';
+				position: absolute;
+			}
+			&:last-child {
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+}

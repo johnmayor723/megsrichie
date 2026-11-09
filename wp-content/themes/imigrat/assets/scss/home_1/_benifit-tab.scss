@@ -1,0 +1,154 @@
+.imi-benifit-tab-section {
+	padding: 140px 0px;
+}
+.imi-tab-benifit-tab-btn {
+	margin-left: 50px;
+	margin-right: 60px;
+	.nav-tabs .nav-link {
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		border: none;
+		font-size: 22px;
+		font-weight: 600;
+		border-radius: 0;
+	}
+	.nav {
+		display: inherit;
+	}
+	.nav-tabs {
+		border: none;
+	}
+	li {
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		i {
+			margin-left: 25px;
+		}
+	}
+	.nav-tabs .nav-link.active,
+	.nav-tabs .nav-link:hover {
+		color: var(--base-color);
+		background-color: transparent;
+	}
+}
+@-webkit-keyframes border-transform {
+	0%,
+	to {
+		border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+	}
+	14% {
+		border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+	}
+	28% {
+		border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+	}
+	42% {
+		border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+	}
+	56% {
+		border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+	}
+	70% {
+		border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+	}
+	84% {
+		border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+	}
+}
+@keyframes border-transform {
+	0%,
+	to {
+		border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+	}
+	14% {
+		border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+	}
+	28% {
+		border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+	}
+	42% {
+		border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+	}
+	56% {
+		border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+	}
+	70% {
+		border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+	}
+	84% {
+		border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+	}
+}
+.imi-tab-benifit-tab-img {
+	z-index: 1;
+	margin-right: 45px;
+	img {
+		display: block;
+		animation: border-transform 10s linear infinite alternate forwards;
+	}
+	&:before {
+		top: 0;
+		left: 0;
+		height: 100%;
+		content: '';
+		width: 100%;
+		z-index: -1;
+		animation: border-transform 15s linear infinite alternate forwards;
+		position: absolute;
+		background-color: var(--base-color);
+	}
+}
+.imi-tab-benifit-tab-text-area {
+	max-width: 560px;
+	.imi-section-title-1 h2 {
+		color: #fff;
+	}
+	.imi-section-title-1 p {
+		color: #cccccc;
+		font-size: 18px;
+	}
+}
+.imi-processing-cost-area {
+	margin-top: 50px;
+	.process-title {
+		color: #fff;
+		font-size: 18px;
+		font-weight: 500;
+		display: inline-block;
+		padding-bottom: 10px;
+	}
+}
+.imi-processing-cost {
+	.imi-processing-number {
+		line-height: 1;
+		font-size: 120px;
+		font-weight: 600;
+		margin-right: 30px;
+		color: var(--base-color);
+	}
+	.imi-processing-list {
+		li {
+			color: #fff;
+			font-size: 18px;
+			font-weight: 600;
+			padding-left: 35px;
+			position: relative;
+			margin-bottom: 10px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&:before {
+				top: 0;
+				left: 0;
+				content: '\f00c';
+				font-weight: 300;
+				position: absolute;
+				color: var(--base-color);
+				font-family: 'Font Awesome 5 Pro';
+			}
+		}
+	}
+}

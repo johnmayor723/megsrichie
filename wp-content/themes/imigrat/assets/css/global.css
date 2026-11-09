@@ -1,0 +1,20 @@
+:root {
+
+	/* #ff6b61 in decimal RGB */
+  --base-color: #3c67ff;
+  --base-color-2: #8a0f3d;
+  --body-color: #666666;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+
+
+
+  /* Fonts */
+  --heading-1: 'Inter';
+  --heading-2: 'Playfair Display';
+  --body-font: 'Inter';
+  --body-font-2: 'Roboto', sans-serif;
+
+
+}

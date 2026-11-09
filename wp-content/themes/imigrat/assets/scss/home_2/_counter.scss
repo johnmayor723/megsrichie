@@ -1,0 +1,24 @@
+.imi-counter-section,
+.imi-counter-section-2 {
+	margin: 0px 60px;
+	padding: 55px 0px;
+	background-color: #f8eff1;
+}
+.imi-counter-section-2 {
+	background-color: #f5f7ff;
+}
+.imi-counter-item {
+	margin-left: 35px;
+	p {
+		font-size: 98px;
+		font-weight: 500;
+		margin-right: 25px;
+		color: var(--base-color-2);
+	}
+	h3 {
+		color: #09242d;
+		font-size: 24px;
+		max-width: 115px;
+		font-weight: 500;
+	}
+}

@@ -1,0 +1,154 @@
+.imi-service-details-thumb-img {
+	margin-bottom: 30px;
+}
+.imi-service-details-text-area {
+	h3 {
+		color: #000000;
+		font-size: 24px;
+		font-weight: 500;
+		padding-bottom: 20px;
+	}
+	p {
+		padding-bottom: 25px;
+	}
+}
+.imi-service-details-feature-area {
+	margin-top: 20px;
+	.imi-service-details-feature {
+		margin-bottom: 30px;
+		.inner-img {
+			width: 112px;
+			height: 116px;
+			margin-right: 15px;
+		}
+		.inner-text {
+			max-width: 275px;
+			h4 {
+				color: #000000;
+				font-size: 18px;
+				font-weight: 400;
+				padding-bottom: 8px;
+			}
+			p {
+				color: #666666;
+				font-size: 14px;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+.imi-service-video-play {
+	.imi-play-btn {
+		top: 50%;
+		left: 0;
+		right: 0;
+		width: 82px;
+		height: 82px;
+		margin: 0 auto;
+		text-align: center;
+		border-radius: 100%;
+		background-color: #fff;
+		transform: translateY(-50%);
+		i {
+			font-size: 30px;
+			color: var(--base-color);
+		}
+	}
+}
+.imi-service-video-list {
+	h3 {
+		padding-bottom: 8px;
+	}
+	p {
+		padding-bottom: 15px;
+	}
+	li {
+		color: #000000;
+		font-size: 14px;
+		padding-left: 25px;
+		margin-bottom: 10px;
+		position: relative;
+		&:before {
+			top: 0;
+			left: 0;
+			color: var(--base-color);
+			content: '\f058';
+			font-weight: 300;
+			position: absolute;
+			font-family: 'Font Awesome 5 Pro';
+		}
+	}
+}
+.imi-service-details-video-play-list {
+	margin-bottom: 30px;
+}
+.imi-service-widget {
+	margin-bottom: 45px;
+	background: rgba(6, 29, 37, 0.02);
+	.widget-title {
+		color: #061D25;
+		font-size: 18px;
+		font-weight: 500;
+		margin-bottom: 10px;
+		padding: 20px 20px 8px;
+		border-bottom: 1px solid var(--base-color);
+	}
+	.category-widget {
+		li {
+			a {
+				z-index: 1;
+				width: 100%;
+				display: block;
+				padding: 13px 30px;
+				position: relative;
+				&:before {
+					top: 0;
+					left: 0;
+					width: 0%;
+					content: '';
+					z-index: -1;
+					height: 100%;
+					position: absolute;
+					transition: all 500ms ease;
+					background-color: var(--base-color);
+				}
+				&:hover {
+					color: #fff;
+					&:before {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.download-widget {
+		a {
+			color: #fff;
+			width: 100%;
+			display: block;
+			font-size: 18px;
+			padding: 25px 30px;
+			text-transform: uppercase;
+			background-color: var(--base-color);
+			i {
+				font-size: 20px;
+				margin-right: 15px;
+			}
+		}
+	}
+	.need-help-widget {
+		padding: 70px 40px;
+		background-color: #000000;
+		h3 {
+			color: #fff;
+			font-size: 22px;
+			font-weight: 500;
+			padding-bottom: 20px;
+			text-transform: uppercase;
+		}
+		p {
+			color: #fff;
+			padding-bottom: 35px;
+		}
+	}
+}

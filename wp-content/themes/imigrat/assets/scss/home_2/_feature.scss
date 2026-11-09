@@ -1,0 +1,123 @@
+.imi-feature-section-2 {
+	z-index: 1;
+	padding: 100px 0px 65px;
+	&:before {
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		content: '';
+		height: 100%;
+		height: 270px;
+		position: absolute;
+		background-color: #f8eff1;
+	}
+}
+.imi-feature-item-2 {
+	margin: 0 auto;
+	max-width: 420px;
+	overflow: hidden;
+	border-radius: 5px;
+	margin-bottom: 35px;
+	.imi-feature-shape {
+		left: 0;
+		bottom: 0;
+		transition: all 500ms ease;
+	}
+	.imi-feature-text {
+		left: 30px;
+		bottom: 35px;
+		transition: all 500ms ease;
+		.feature-title {
+			h3 {
+				color: #fff;
+				font-size: 22px;
+				margin-top: 18px;
+				font-weight: 500;
+			}
+		}
+	}
+	.imi-feature-hover-item {
+		top: 50%;
+		left: 0;
+		right: 0;
+		max-width: 85%;
+		margin: 0 auto;
+		padding: 45px 30px;
+		border-radius: 5px;
+		background-color: rgb(138 15 61 / 90%);
+		transition: .3s cubic-bezier(.24,.74,.58,1);
+		transform:   scaleY(0) translateY(-50%);
+		transform-origin: top center;
+		.feature-icon {
+			margin-right: 15px;
+		}
+		.feature-title {
+			h3 {
+				color: #fff;
+				font-size: 22px;
+				font-weight: 500;
+			}
+		}
+		.feature-icon-title {
+			margin-bottom: 25px;
+		}
+		.feature-dec-text {
+			p {
+				color: #fff;
+				padding-bottom: 35px;
+			}
+			.read-more-btn {
+				color: #fff;
+				font-weight: 500;
+				letter-spacing: 2px;
+				position: relative;
+				display: inline-block;
+				&:before {
+					left: 0;
+					bottom: 0;
+					width: 0%;
+					height: 1px;
+					content: '';
+					position: absolute;
+					background-color: #fff;
+					transition: all 500ms ease;
+				}
+				i {
+					font-size: 20px;
+					margin-left: 5px;
+					transform: rotate(-45deg);
+					transition: all 500ms ease;
+				}
+				&:hover {
+					&:before {
+						width: 100%;
+					}
+					i {
+						transform: rotate(0);
+					}
+				}
+			}
+		}
+	}
+	&:hover {
+		.imi-feature-shape {
+			left: -30px;
+			opacity: 0;
+			bottom: -30px;
+			visibility: hidden;
+			transition-delay: .15s;
+		}
+		.imi-feature-text {
+			opacity: 0;
+			left: -30px;
+			bottom: -30px;
+			visibility: hidden;
+
+		}
+		.imi-feature-hover-item {
+			transition-delay: .2s;
+			transform: scaleY(1) translateY(-50%);
+		}
+	}
+}

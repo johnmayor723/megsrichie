@@ -1,0 +1,94 @@
+.imi-benifit-service-section {
+	padding: 115px 0px 200px;
+}
+.imi-benifit-service-content {
+	padding-top: 50px;
+}
+.imi-benifit-service-item {
+	z-index: 1;
+	margin: 0 auto;
+	max-width: 375px;
+	margin-bottom: 40px;
+	background-color: rgb(255, 255, 255);
+	&:before {
+		left: 0;
+		bottom: 0;
+		z-index: -2;
+		height: 50%;
+		width: 100%;
+		content: '';
+		position: absolute;
+		background-color: #fff;
+		box-shadow: 0px 1px 73px 0px rgba(0, 0, 0, 0.08);
+	}
+	.imi-benifit-ser-shape,
+	.imi-benifit-ser-shape2 {
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+		transition: all 500ms ease;
+	}
+	.imi-benifit-ser-shape2 {
+		opacity: 0;
+		visibility: hidden;
+	}
+	.imi-benifit-arrow {
+		top: 67%;
+		right: 15px;
+	}
+	.imi-benifit-service-img {
+		overflow: hidden;
+		-webkit-mask-image: url(../img/service/sbm1.png);
+		mask-image: url(../img/service/sbm1.png);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+		-webkit-mask-position: bottom;
+		mask-position: bottom;
+		img {
+			max-width: 367px;
+			transition: all 500ms ease;
+			border-top-right-radius: 10px;
+		}
+	}
+	.imi-benifit-service-text {
+		padding: 28px 30px;
+		h3 {
+			color: #0e0e0e;
+			font-size: 22px;
+			font-weight: 700;
+			&:hover {
+				color: var(--base-color);
+			}
+		}
+		span {
+			font-size: 14px;
+			color: var(--base-color);
+		}
+	}
+	&:hover {
+		.imi-benifit-service-img {
+			img {
+				transform: scale(1.1);
+			}
+		}
+		.imi-benifit-ser-shape {
+			opacity: 0;
+			visibility: hidden;
+		}
+		.imi-benifit-ser-shape2 {
+			opacity: 1;
+			visibility: visible;
+		}
+		.imi-benifit-arrow {
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
+.imi-benifit-service-btn {
+	padding-top: 30px;
+}

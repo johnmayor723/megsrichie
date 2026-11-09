@@ -1,0 +1,2214 @@
+# Copyright (C) 2019 Webinane
+# This file is distributed under the This theme or plugin is comprised of two parts. (1) the PHP code and integrated HTML are licensed under the General Public License (GPL). You will find a copy of the GPL in the same directory as this text file. (2) All other parts, but not limited to the CSS code, images, and design are licensed according to the license purchased from Envato.  Read more about licensing here: http://themeforest.net/licenses.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Imigrat\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/deeds2\n"
+"POT-Creation-Date: 2023-06-20 22:48+0600\n"
+"PO-Revision-Date: 2020-06-09 17:39+0500\n"
+"Last-Translator: Muhibbur <muhibbur@gmail.com>\n"
+"Language-Team: Themexriver <haseeb@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: deeds2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_attr_e;_e;esc_html__;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:31
+msgid "404"
+msgstr ""
+
+#: ../404.php:40
+msgid "Oops! That page can’t be found"
+msgstr ""
+
+#: ../404.php:49
+msgid "Sorry, but the page you are looking for does not existing"
+msgstr ""
+
+#: ../404.php:57 ../includes/resource/options/404_setting.php:101
+msgid "Go To Home"
+msgstr ""
+
+#: ../comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:63
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:66
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:903
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1195
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1205
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1423
+msgid "Welcome"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1437
+msgid "Requirements"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1445
+msgid "Child"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1457
+msgid "License"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1473
+msgid "Plugins"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1489 ../demo-import/class-merlin.php:4187
+msgid "Content"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1501
+msgid "Ready"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1711 ../demo-import/class-merlin.php:1927
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:1737
+msgid "System Health Check"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2115
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2255
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2431
+#: ../includes/library/class-tgm-plugin-activation.php:4719
+msgid "Required"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2433
+msgid "req"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2513
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2605
+msgid "Select Demo"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2681
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2841
+msgid "The final step has been displayed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:2995
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3029
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3071
+msgid ""
+"Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3089
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3115
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3207 ../demo-import/class-merlin.php:3289
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3233
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3245
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3253
+msgid ""
+"This appears to be an invalid license key. Please try again or contact "
+"support."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3263
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3273
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3281
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3469
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3531
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3599
+msgid ""
+"The child theme screenshot was copied to the child theme, with the following "
+"result"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3603
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3661
+msgid "Activating"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3693
+msgid "Updating"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3725 ../demo-import/class-merlin.php:3757
+#: ../demo-import/class-merlin.php:4193 ../demo-import/class-merlin.php:4219
+#: ../demo-import/class-merlin.php:4245 ../demo-import/class-merlin.php:4271
+#: ../demo-import/class-merlin.php:4297 ../demo-import/class-merlin.php:4323
+#: ../demo-import/class-merlin.php:4411
+msgid "Installing"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3741
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3765
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3783 ../demo-import/class-merlin.php:4195
+#: ../demo-import/class-merlin.php:4221 ../demo-import/class-merlin.php:4247
+#: ../demo-import/class-merlin.php:4273 ../demo-import/class-merlin.php:4299
+#: ../demo-import/class-merlin.php:4325
+msgid "Success"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3829
+msgid ""
+"The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3839
+msgid "Invalid content!"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3861
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3945
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3967
+msgid "Error"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:3995
+msgid ""
+"The content importer AJAX call for retrieving total content import items "
+"failed to start, because of incorrect data."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4005
+msgid "Invalid data!"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4189
+msgid "Demo content data."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4191 ../demo-import/class-merlin.php:4217
+#: ../demo-import/class-merlin.php:4243 ../demo-import/class-merlin.php:4269
+#: ../demo-import/class-merlin.php:4295 ../demo-import/class-merlin.php:4321
+msgid "Pending"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4213
+msgid "Widgets"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4215
+msgid "Sample widgets data."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4239
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4241
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4265
+msgid "Options"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4267
+msgid "Sample theme options data."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4291
+msgid "Redux Options"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4293
+msgid "Redux framework options."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4317
+msgid "After import setup"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4319
+msgid "After import setup."
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4379
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4453
+msgid "The home page was set"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4473
+msgid "The blog page was set"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4503
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: ../demo-import/class-merlin.php:4551
+msgid ""
+"This predefined demo import does not have the name parameter: "
+"import_file_name"
+msgstr ""
+
+#: ../demo-import/importer/WXRImporter.php:949
+#: ../demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:949
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: ../demo-import/importer/WXRImporter.php:2323
+#: ../demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2324
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: ../demo-import/importer/WXRImporter.php:2332
+#: ../demo-import/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2333
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: ../demo-import/includes/class-merlin-customizer-importer.php:113
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: ../demo-import/includes/class-merlin-customizer-importer.php:139
+msgid ""
+"Error: The customizer import file does not have any content in it. Please "
+"make sure to use the correct customizer import file."
+msgstr ""
+
+#: ../demo-import/includes/class-merlin-customizer-importer.php:159
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: ../demo-import/includes/class-merlin-customizer-importer.php:171
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: ../demo-import/includes/class-merlin-widget-importer.php:647
+msgid "No results for widget import!"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:125
+msgid "IMIGRAT Demo Import"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:131
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:133
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:135
+msgid "Disable this wizard"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:139
+msgid "Skip"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:141
+msgid "Next"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:143
+msgid "Start"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:145
+msgid "Cancel"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:147 ../demo-import/merlin-config.php:149
+#: ../demo-import/merlin-config.php:151
+#: ../includes/library/class-tgm-plugin-activation.php:5607
+msgid "Install"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:153
+msgid "Import"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:155
+#: ../includes/library/class-tgm-plugin-activation.php:5625
+msgid "Activate"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:157
+msgid "Later"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:163
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:167
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:171
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:173
+msgid "License key"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:175
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:177
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:179
+msgid "Need help?"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:185
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:187
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:189
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:191
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:195
+msgid "Install Child Theme"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:197
+msgid "You're good to go!"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:199
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:201
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:203
+msgid "Learn about child themes"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:205
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:207
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:210
+#: ../includes/library/class-tgm-plugin-activation.php:679
+msgid "Install Plugins"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:212
+msgid "You're up to speed!"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:214
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:216
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press "
+"\"Next\" to continue the setup wizard."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:218 ../demo-import/merlin-config.php:225
+msgid "Advanced"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:221
+msgid "Import Content"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:223
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:229
+msgid "All done. Have fun!"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:235
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: ../demo-import/merlin-config.php:237
+msgid "Extras"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:239
+msgid "View your website"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:241
+msgid "5 Star For Project Imigrat"
+msgstr ""
+
+#: ../demo-import/merlin-config.php:243
+msgid "Get Imigrat Theme Support"
+msgstr ""
+
+#: ../demo-import/merlin-filters.php:177
+msgid "Main Demo"
+msgstr ""
+
+#: ../demo-import/merlin-filters.php:188
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: ../functions.php:69
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:131
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../functions.php:133 ../functions.php:225
+msgid "Widgets in this area will be shown on the right-hand side."
+msgstr ""
+
+#: ../functions.php:140
+msgid "Footer Widget"
+msgstr ""
+
+#: ../functions.php:142 ../functions.php:152 ../functions.php:161
+#: ../functions.php:170 ../functions.php:179
+msgid "Widgets in this area will be shown in Footer Area."
+msgstr ""
+
+#: ../functions.php:150
+msgid "Footer Widget Two"
+msgstr ""
+
+#: ../functions.php:159
+msgid "Footer Widget Three"
+msgstr ""
+
+#: ../functions.php:168
+msgid "Footer Widget Four"
+msgstr ""
+
+#: ../functions.php:177
+msgid "Footer Widget Five"
+msgstr ""
+
+#: ../functions.php:186
+msgid "Services Widget"
+msgstr ""
+
+#: ../functions.php:188 ../functions.php:197 ../functions.php:206
+#: ../functions.php:215
+msgid "Widgets in this area will be shown in Services Area."
+msgstr ""
+
+#: ../functions.php:195
+msgid "Country Widget"
+msgstr ""
+
+#: ../functions.php:204
+msgid "Visa Widget"
+msgstr ""
+
+#: ../functions.php:213
+msgid "Jobs Widget"
+msgstr ""
+
+#: ../functions.php:223
+msgid "Blog Listing"
+msgstr ""
+
+#: ../functions.php:271
+msgid "strong yellow"
+msgstr ""
+
+#: ../functions.php:276
+msgid "strong white"
+msgstr ""
+
+#: ../functions.php:281
+msgid "light black"
+msgstr ""
+
+#: ../functions.php:286
+msgid "very light gray"
+msgstr ""
+
+#: ../functions.php:291
+msgid "very dark black"
+msgstr ""
+
+#: ../functions.php:299
+msgid "Small"
+msgstr ""
+
+#: ../functions.php:304
+msgid "Normal"
+msgstr ""
+
+#: ../functions.php:309
+msgid "Large"
+msgstr ""
+
+#: ../functions.php:314
+msgid "Huge"
+msgstr ""
+
+#: ../includes/classes/ajax.php:117 ../includes/classes/ajax.php:221
+msgid "Load More"
+msgstr ""
+
+#: ../includes/classes/ajax.php:131 ../includes/classes/ajax.php:139
+#: ../includes/classes/ajax.php:233
+msgid "No More Post"
+msgstr ""
+
+#: ../includes/classes/options-codestar.php:95
+#: ../includes/classes/options-codestar.php:97
+#: ../includes/classes/options.php:101 ../includes/classes/options.php:103
+msgid "IMIGRAT Options"
+msgstr ""
+
+#: ../includes/classes/options.php:485
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../includes/classes/options.php:487 ../includes/classes/options.php:497
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../includes/classes/options.php:495
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../includes/classes/options.php:509
+msgid "This is the sidebar content, HTML is allowed."
+msgstr ""
+
+#: ../includes/classes/visual-composer.php:455
+msgid "Yes"
+msgstr ""
+
+#: ../includes/functions/functions.php:49
+msgid "No class found"
+msgstr ""
+
+#: ../includes/functions/functions.php:120
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../includes/functions/functions.php:125
+#: ../includes/resource/options/404_setting.php:14
+#: ../includes/resource/options/archive_setting.php:14
+#: ../includes/resource/options/author_setting.php:29
+#: ../includes/resource/options/blog_setting.php:29
+#: ../includes/resource/options/category_setting.php:29
+#: ../includes/resource/options/footer_setting.php:14
+#: ../includes/resource/options/headers_setting.php:14
+#: ../includes/resource/options/search_setting.php:29
+#: ../includes/resource/options/single_post_setting.php:14
+#: ../includes/resource/options/tag_setting.php:15
+msgid "Elementor"
+msgstr ""
+
+#: ../includes/functions/functions.php:130
+msgid "Mailchimp for WordPress"
+msgstr ""
+
+#: ../includes/functions/functions.php:135
+msgid "Imigrat Plugin"
+msgstr ""
+
+#: ../includes/functions/functions.php:142
+msgid "Slider Revolution"
+msgstr ""
+
+#: ../includes/functions/functions.php:172
+msgid "IMIGRAT"
+msgstr ""
+
+#: ../includes/functions/functions.php:187
+#: ../includes/functions/functions.php:189
+msgid "logo"
+msgstr ""
+
+#: ../includes/functions/functions.php:254
+msgid "Home"
+msgstr ""
+
+#: ../includes/functions/functions.php:294
+#: ../includes/functions/functions.php:350
+#: ../includes/functions/functions.php:352
+msgid "Archive for "
+msgstr ""
+
+#: ../includes/functions/functions.php:307
+#: ../includes/functions/functions.php:354
+msgid "Search Results for "
+msgstr ""
+
+#: ../includes/functions/functions.php:310
+msgid "404 - Not Found"
+msgstr ""
+
+#: ../includes/functions/functions.php:322
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: ../includes/functions/functions.php:346
+msgid "Blog Page "
+msgstr ""
+
+#: ../includes/functions/functions.php:356
+msgid "404 Page Not Found"
+msgstr ""
+
+#: ../includes/functions/functions.php:429
+msgid "Name"
+msgstr ""
+
+#: ../includes/functions/functions.php:432
+msgid "Email"
+msgstr ""
+
+#: ../includes/functions/functions.php:435
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../includes/functions/functions.php:446
+msgid "Type Comment here"
+msgstr ""
+
+#: ../includes/functions/functions.php:450
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../includes/functions/functions.php:456
+msgid "Logged in as"
+msgstr ""
+
+#: ../includes/functions/functions.php:456
+msgid "Log out?"
+msgstr ""
+
+#: ../includes/functions/functions.php:459
+#, php-format
+msgid "Logged in as %s. Edit your profile."
+msgstr ""
+
+#: ../includes/functions/functions.php:471
+msgid "Leave A Comment"
+msgstr ""
+
+#: ../includes/functions/functions.php:472
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../includes/functions/functions.php:477
+msgid "Cancel reply"
+msgstr ""
+
+#: ../includes/functions/functions.php:478
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../includes/functions/functions.php:748
+msgid "Flaticons"
+msgstr ""
+
+#: ../includes/functions/functions.php:760
+msgid "Icomoon"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:677
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:683
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:687
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:689
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:793
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:795
+#: ../includes/library/class-tgm-plugin-activation.php:1815
+#: ../includes/library/class-tgm-plugin-activation.php:5239
+#: ../includes/library/class-tgm-plugin-activation.php:7337
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:797
+#: ../includes/library/class-tgm-plugin-activation.php:6497
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:799
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:803
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:807
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:811
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:813
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:815
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:817
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:1201
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:1203
+msgid "Update Required"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:2029
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:2029
+#: ../includes/library/class-tgm-plugin-activation.php:2035
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:2035
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4725
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4757
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4763
+msgid "External Source"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4769
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4803
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4811
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4815
+msgid "Active"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4827
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4833
+msgid "Requires Update"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:4839
+msgid "Update recommended"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5153
+msgid "Installed version:"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5169
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5193
+msgid "Available version:"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5239
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5267
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5269
+msgid "Source"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5271
+msgid "Type"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5279
+msgid "Version"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5281
+msgid "Status"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5379
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5389
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5401
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5541
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5619
+msgid "Update"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5693
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5697
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5779
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5783
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:5995
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:6047
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:6495
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7175
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7181
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7185
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7193
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7197
+#: ../includes/library/class-tgm-plugin-activation.php:7213
+#, php-format
+msgid "%1$s done."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7199
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7203
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7209
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7215
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/library/class-tgm-plugin-activation.php:7219
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:3
+msgid "404 Page Settings"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:11
+msgid "404 Source Type"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:13
+#: ../includes/resource/options/archive_setting.php:13
+#: ../includes/resource/options/author_setting.php:27
+#: ../includes/resource/options/blog_setting.php:27
+#: ../includes/resource/options/category_setting.php:27
+#: ../includes/resource/options/footer_setting.php:13
+#: ../includes/resource/options/headers_setting.php:13
+#: ../includes/resource/options/search_setting.php:27
+#: ../includes/resource/options/single_post_setting.php:13
+#: ../includes/resource/options/tag_setting.php:14
+msgid "Default"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:31
+msgid "404 Default"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:38
+#: ../includes/resource/options/archive_setting.php:39
+#: ../includes/resource/options/author_setting.php:85
+#: ../includes/resource/options/blog_setting.php:81
+#: ../includes/resource/options/category_setting.php:79
+#: ../includes/resource/options/search_setting.php:79
+#: ../includes/resource/options/tag_setting.php:40
+msgid "Show Banner"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:39
+msgid "Enable to show Banner on 404 page."
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:47
+#: ../includes/resource/options/archive_setting.php:58
+#: ../includes/resource/options/author_setting.php:127
+#: ../includes/resource/options/blog_setting.php:119
+#: ../includes/resource/options/category_setting.php:117
+#: ../includes/resource/options/search_setting.php:117
+#: ../includes/resource/options/tag_setting.php:58
+msgid "Background Image"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:48
+#: ../includes/resource/options/archive_setting.php:59
+#: ../includes/resource/options/author_setting.php:129
+#: ../includes/resource/options/blog_setting.php:121
+#: ../includes/resource/options/category_setting.php:119
+#: ../includes/resource/options/search_setting.php:119
+#: ../includes/resource/options/tag_setting.php:59
+msgid "Insert background image for banner"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:57
+#: ../includes/resource/options/archive_setting.php:47
+#: ../includes/resource/options/author_setting.php:105
+#: ../includes/resource/options/blog_setting.php:97
+#: ../includes/resource/options/category_setting.php:95
+#: ../includes/resource/options/search_setting.php:95
+#: ../includes/resource/options/tag_setting.php:47
+msgid "Banner Section Title"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:58
+#: ../includes/resource/options/archive_setting.php:48
+#: ../includes/resource/options/author_setting.php:107
+#: ../includes/resource/options/blog_setting.php:99
+#: ../includes/resource/options/category_setting.php:97
+#: ../includes/resource/options/search_setting.php:97
+#: ../includes/resource/options/tag_setting.php:48
+msgid "Enter the title to show in banner section"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:70
+msgid "404 Title"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:71
+msgid "Enter 404 section title that you want to show"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:77
+msgid "404 Page Tag Line"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:78
+msgid "Enter 404 section Tag Line that you want to show"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:84
+msgid "404 Page Text"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:85
+msgid "Enter 404 section Text that you want to show"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:91
+msgid "Show Button"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:92
+msgid "Enable to show back to home button."
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:99
+msgid "Button Label"
+msgstr ""
+
+#: ../includes/resource/options/404_setting.php:100
+msgid "Enter back to home button label that you want to show."
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:3
+msgid "Archive Page Settings"
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:11
+msgid "Archive Source Type"
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:32
+msgid "Archive Default"
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:40
+#: ../includes/resource/options/author_setting.php:87
+#: ../includes/resource/options/blog_setting.php:83
+#: ../includes/resource/options/category_setting.php:81
+#: ../includes/resource/options/search_setting.php:81
+#: ../includes/resource/options/tag_setting.php:41
+msgid "Enable to show banner on blog"
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:71
+#: ../includes/resource/options/author_setting.php:155
+#: ../includes/resource/options/blog_setting.php:147
+#: ../includes/resource/options/category_setting.php:145
+#: ../includes/resource/options/search_setting.php:145
+#: ../includes/resource/options/tag_setting.php:70
+msgid "Layout"
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:72
+#: ../includes/resource/options/author_setting.php:157
+#: ../includes/resource/options/blog_setting.php:149
+#: ../includes/resource/options/category_setting.php:147
+#: ../includes/resource/options/search_setting.php:147
+#: ../includes/resource/options/tag_setting.php:71
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:84
+#: ../includes/resource/options/author_setting.php:189
+#: ../includes/resource/options/blog_setting.php:181
+#: ../includes/resource/options/category_setting.php:179
+#: ../includes/resource/options/search_setting.php:175
+#: ../includes/resource/options/sidebar_setting.php:17
+#: ../includes/resource/options/tag_setting.php:87
+msgid "Sidebar"
+msgstr ""
+
+#: ../includes/resource/options/archive_setting.php:85
+#: ../includes/resource/options/author_setting.php:191
+#: ../includes/resource/options/blog_setting.php:183
+#: ../includes/resource/options/category_setting.php:181
+#: ../includes/resource/options/search_setting.php:177
+#: ../includes/resource/options/tag_setting.php:88
+msgid "Select sidebar to show at blog listing page"
+msgstr ""
+
+#: ../includes/resource/options/author_setting.php:7
+msgid "Author Page Settings"
+msgstr ""
+
+#: ../includes/resource/options/author_setting.php:23
+msgid "Author Source Type"
+msgstr ""
+
+#: ../includes/resource/options/author_setting.php:67
+msgid "Author Default"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:7
+msgid "Blog Page Settings"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:23
+msgid "Blog Source Type"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:67
+msgid "Blog Default"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:203
+msgid "Show Post Comments"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:205
+msgid "Enable to show post comments on posts listing"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:225
+#: ../includes/resource/options/single_post_setting.php:46
+msgid "Show Author"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:227
+msgid "Enable to show author on posts listing"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:245
+msgid "Show Post Date"
+msgstr ""
+
+#: ../includes/resource/options/blog_setting.php:247
+msgid "Enable to show post data on posts listing"
+msgstr ""
+
+#: ../includes/resource/options/body_font_setting.php:9
+msgid "Body Font Settings"
+msgstr ""
+
+#: ../includes/resource/options/body_font_setting.php:25
+msgid "Use Body,Paragraph Custom Font"
+msgstr ""
+
+#: ../includes/resource/options/body_font_setting.php:27
+msgid "Enable to customize the theme body,p tag font"
+msgstr ""
+
+#: ../includes/resource/options/body_font_setting.php:37
+msgid "Body Font Typography"
+msgstr ""
+
+#: ../includes/resource/options/body_font_setting.php:47
+msgid "Apply options to customize the body,paragraph font for the theme"
+msgstr ""
+
+#: ../includes/resource/options/category_setting.php:7
+msgid "Category Page Settings"
+msgstr ""
+
+#: ../includes/resource/options/category_setting.php:23
+msgid "Category Source Type"
+msgstr ""
+
+#: ../includes/resource/options/category_setting.php:67
+msgid "Category Default"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:4
+#: ../includes/resource/options/general_setting.php:4
+#, php-format
+msgid "Style %s"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:8
+msgid "Color Scheme Setting"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:16
+msgid "Enable Color Scheme"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:22
+msgid "Main Custom Color Scheme"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:23
+#: ../includes/resource/options/color_scheme_setting.php:30
+msgid "Choose the Custom color scheme for the theme"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:29
+msgid "Secondary Custom Color Scheme"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:36
+msgid "Enable RTL Support"
+msgstr ""
+
+#: ../includes/resource/options/color_scheme_setting.php:42
+msgid "Enable Layout Switcher"
+msgstr ""
+
+#: ../includes/resource/options/custom_fonts_setting.php:11
+msgid "Custom Font Settings"
+msgstr ""
+
+#: ../includes/resource/options/custom_fonts_setting.php:41
+msgid ""
+"Please upload your desire font file in *.ttf,  *.otf, *.eot, *.woff format"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:3
+msgid "Footer Setting"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:11
+msgid "Footer Source Type"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:32
+#: ../includes/resource/options/footer_setting.php:33
+msgid "Choose Footer Styles"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:53
+msgid "Footer Style One Settings"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:63
+msgid "Footer CTA"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:73
+msgid "Footer CTA Image"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:74
+msgid "Insert Footer CTA Image"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:79
+msgid "Footer cta Icons"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:85
+msgid "Footer cta Title"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:86
+msgid "Proin Tempus"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:87
+msgid "Enter the Footer cta Titlee"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:92
+msgid "Cta Button Title"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:93
+msgid "Enter the Cta Button Title"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:98
+msgid "External Url"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:99
+msgid "Enter the External Url"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:108
+#: ../includes/resource/options/footer_setting.php:237
+#: ../includes/resource/options/footer_setting.php:273
+#: ../includes/resource/options/footer_setting.php:298
+#: ../includes/resource/options/footer_setting.php:323
+#: ../includes/resource/options/footer_setting.php:348
+msgid "Enter the Copyright Text"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:121
+msgid "Footer Style Two Settings"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:131
+#: ../includes/resource/options/footer_setting.php:261
+msgid "Footer Logo Image"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:132
+#: ../includes/resource/options/footer_setting.php:262
+msgid "Insert Footer Logo Image"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:142
+msgid "Enable Footer Top"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:153
+msgid "Client Image One"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:154
+msgid "Insert Client Image One"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:164
+msgid "Client Image Two"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:165
+msgid "Insert Client Image Two"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:175
+msgid "Client Image Three"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:176
+msgid "Insert Client Image Three"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:185
+#: ../includes/resource/options/headers_sidebar_setting.php:27
+msgid "Description"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:186
+#: ../includes/resource/options/headers_sidebar_setting.php:28
+msgid "Enter The Description"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:195
+#: ../includes/resource/options/headers_setting.php:105
+#: ../includes/resource/options/headers_setting.php:240
+#: ../includes/resource/options/headers_setting.php:374
+#: ../includes/resource/options/headers_setting.php:456
+#: ../includes/resource/options/headers_setting.php:564
+#: ../includes/resource/options/headers_setting.php:672
+msgid "Button Title"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:196
+#: ../includes/resource/options/headers_setting.php:106
+#: ../includes/resource/options/headers_setting.php:241
+#: ../includes/resource/options/headers_setting.php:375
+#: ../includes/resource/options/headers_setting.php:457
+#: ../includes/resource/options/headers_setting.php:565
+#: ../includes/resource/options/headers_setting.php:673
+msgid "Enter The Button Title"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:205
+#: ../includes/resource/options/headers_setting.php:112
+#: ../includes/resource/options/headers_setting.php:247
+#: ../includes/resource/options/headers_setting.php:381
+#: ../includes/resource/options/headers_setting.php:463
+#: ../includes/resource/options/headers_setting.php:571
+#: ../includes/resource/options/headers_setting.php:679
+msgid "Button Link"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:206
+#: ../includes/resource/options/headers_setting.php:113
+#: ../includes/resource/options/headers_setting.php:248
+#: ../includes/resource/options/headers_setting.php:382
+#: ../includes/resource/options/headers_setting.php:464
+#: ../includes/resource/options/headers_setting.php:572
+#: ../includes/resource/options/headers_setting.php:680
+msgid "Enter The Button Link"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:215
+#: ../includes/resource/options/headers_setting.php:82
+msgid "Phone Title"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:216
+msgid "Enter The Phone Title"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:225
+#: ../includes/resource/options/headers_setting.php:89
+#: ../includes/resource/options/headers_setting.php:156
+#: ../includes/resource/options/headers_setting.php:290
+#: ../includes/resource/options/headers_setting.php:423
+msgid "Phone Number"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:226
+#: ../includes/resource/options/headers_setting.php:83
+#: ../includes/resource/options/headers_setting.php:90
+#: ../includes/resource/options/headers_setting.php:157
+#: ../includes/resource/options/headers_setting.php:291
+#: ../includes/resource/options/headers_setting.php:424
+msgid "Enter The Phone Number"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:251
+msgid "Footer Style Three Settings"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:287
+msgid "Footer Style Four Settings"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:312
+msgid "Footer Style Fiver Settings"
+msgstr ""
+
+#: ../includes/resource/options/footer_setting.php:337
+msgid "Footer Style Six Settings"
+msgstr ""
+
+#: ../includes/resource/options/general_setting.php:7
+msgid "General Setting"
+msgstr ""
+
+#: ../includes/resource/options/general_setting.php:16
+msgid "Enable Preloader"
+msgstr ""
+
+#: ../includes/resource/options/general_setting.php:22
+msgid "Enable RTL"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:3
+msgid "Header Setting"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:11
+msgid "Header Source Type"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:37
+#: ../includes/resource/options/headers_setting.php:38
+msgid "Choose Header Styles"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:58
+msgid "Header Style One Settings"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:66
+#: ../includes/resource/options/headers_setting.php:223
+#: ../includes/resource/options/headers_setting.php:357
+msgid "Enable Search Icon"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:75
+#: ../includes/resource/options/headers_setting.php:149
+#: ../includes/resource/options/headers_setting.php:283
+#: ../includes/resource/options/headers_setting.php:416
+msgid "Enable Phone Number"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:98
+#: ../includes/resource/options/headers_setting.php:232
+#: ../includes/resource/options/headers_setting.php:366
+#: ../includes/resource/options/headers_setting.php:448
+#: ../includes/resource/options/headers_setting.php:556
+#: ../includes/resource/options/headers_setting.php:664
+msgid "Enable Get A Quote Button"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:125
+msgid "Header Style Two Settings"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:133
+#: ../includes/resource/options/headers_setting.php:267
+#: ../includes/resource/options/headers_setting.php:498
+#: ../includes/resource/options/headers_setting.php:606
+msgid "Enable Address"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:140
+#: ../includes/resource/options/headers_setting.php:274
+#: ../includes/resource/options/headers_setting.php:407
+#: ../includes/resource/options/headers_setting.php:505
+#: ../includes/resource/options/headers_setting.php:613
+msgid "Address"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:141
+#: ../includes/resource/options/headers_setting.php:275
+#: ../includes/resource/options/headers_setting.php:408
+#: ../includes/resource/options/headers_setting.php:506
+#: ../includes/resource/options/headers_setting.php:614
+msgid "Enter The Address"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:165
+#: ../includes/resource/options/headers_setting.php:299
+#: ../includes/resource/options/headers_setting.php:432
+#: ../includes/resource/options/headers_setting.php:482
+#: ../includes/resource/options/headers_setting.php:590
+msgid "Enable Email Address"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:172
+#: ../includes/resource/options/headers_setting.php:306
+#: ../includes/resource/options/headers_setting.php:439
+#: ../includes/resource/options/headers_setting.php:489
+#: ../includes/resource/options/headers_setting.php:597
+msgid "Email Address"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:173
+#: ../includes/resource/options/headers_setting.php:307
+#: ../includes/resource/options/headers_setting.php:440
+#: ../includes/resource/options/headers_setting.php:490
+#: ../includes/resource/options/headers_setting.php:598
+msgid "Enter The Email Address"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:181
+#: ../includes/resource/options/headers_setting.php:315
+#: ../includes/resource/options/headers_setting.php:514
+#: ../includes/resource/options/headers_setting.php:622
+#: ../includes/resource/options/headers_sidebar_setting.php:37
+msgid "Enable Social Media"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:182
+#: ../includes/resource/options/headers_setting.php:316
+#: ../includes/resource/options/headers_setting.php:515
+#: ../includes/resource/options/headers_setting.php:623
+#: ../includes/resource/options/headers_sidebar_setting.php:38
+msgid "Enable/Disable Social Media."
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:189
+#: ../includes/resource/options/headers_setting.php:323
+#: ../includes/resource/options/headers_setting.php:522
+#: ../includes/resource/options/headers_setting.php:630
+#: ../includes/resource/options/headers_sidebar_setting.php:56
+msgid "Social Media"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:194
+#: ../includes/resource/options/headers_setting.php:328
+#: ../includes/resource/options/headers_setting.php:527
+#: ../includes/resource/options/headers_setting.php:635
+#: ../includes/resource/options/headers_sidebar_setting.php:61
+#: ../includes/resource/options/single_post_setting.php:141
+msgid "URL"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:195
+#: ../includes/resource/options/headers_setting.php:329
+#: ../includes/resource/options/headers_setting.php:528
+#: ../includes/resource/options/headers_setting.php:636
+#: ../includes/resource/options/headers_sidebar_setting.php:62
+msgid "Enter the URL of social Profile"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:200
+#: ../includes/resource/options/headers_setting.php:334
+#: ../includes/resource/options/headers_setting.php:533
+#: ../includes/resource/options/headers_setting.php:641
+#: ../includes/resource/options/headers_sidebar_setting.php:67
+#: ../includes/resource/options/single_post_setting.php:146
+msgid "Icon"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:201
+#: ../includes/resource/options/headers_setting.php:335
+#: ../includes/resource/options/headers_setting.php:534
+#: ../includes/resource/options/headers_setting.php:642
+#: ../includes/resource/options/headers_sidebar_setting.php:68
+msgid "Choose the icon"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:206
+#: ../includes/resource/options/headers_setting.php:340
+#: ../includes/resource/options/headers_setting.php:539
+#: ../includes/resource/options/headers_setting.php:647
+#: ../includes/resource/options/headers_sidebar_setting.php:73
+#: ../includes/resource/options/single_post_setting.php:156
+#: ../includes/resource/options/social_setting.php:61
+msgid "Color"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:207
+#: ../includes/resource/options/headers_setting.php:341
+#: ../includes/resource/options/headers_setting.php:540
+#: ../includes/resource/options/headers_setting.php:648
+#: ../includes/resource/options/headers_sidebar_setting.php:74
+msgid "Choose the color"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:212
+#: ../includes/resource/options/headers_setting.php:346
+#: ../includes/resource/options/headers_setting.php:545
+#: ../includes/resource/options/headers_setting.php:653
+#: ../includes/resource/options/headers_sidebar_setting.php:79
+#: ../includes/resource/options/single_post_setting.php:151
+#: ../includes/resource/options/social_setting.php:51
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:213
+#: ../includes/resource/options/headers_setting.php:347
+#: ../includes/resource/options/headers_setting.php:546
+#: ../includes/resource/options/headers_setting.php:654
+#: ../includes/resource/options/headers_sidebar_setting.php:80
+msgid "Choose the background color"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:259
+msgid "Header Style Three Settings"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:392
+msgid "Header Style Four Settings"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:400
+msgid "Office Address"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:474
+msgid "Header Style Five Settings"
+msgstr ""
+
+#: ../includes/resource/options/headers_setting.php:582
+msgid "Header Style Six Settings"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:4
+msgid "Headers Sidebar Setting"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:12
+msgid "Enable Sidebar Info"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:18
+msgid "Title"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:19
+msgid "Enter The Title"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:47
+msgid "Social Title"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:48
+msgid "Enter The Contact Title"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:91
+msgid "Enable/Disable Gallery"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:97
+msgid "Gallery Title"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:98
+msgid "Enter The Gallery Title"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:107
+msgid "Gallery Image"
+msgstr ""
+
+#: ../includes/resource/options/headers_sidebar_setting.php:108
+msgid "Insert Gallery Image URl"
+msgstr ""
+
+#: ../includes/resource/options/language_setting.php:9
+msgid "Language Settings"
+msgstr ""
+
+#: ../includes/resource/options/language_setting.php:25
+msgid "Please upload .mo language file"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:5
+msgid "Logo Setting"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:23
+msgid "Favicon"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:25
+msgid "Insert site favicon image"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:39
+msgid "Enable Light Color Logo V1"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:53
+msgid "Light Color Logo V1"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:55
+msgid "Insert site Light Color Logo image V1"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:69
+msgid "Light Color Logo Dimentions V1"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:71
+msgid "Select Light Color Logo Dimentions V1"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:89
+msgid "Enable Dark Color Logo"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:103
+msgid "Dark Color Logo"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:105
+msgid "Insert site Dark Color logo image"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:119
+msgid "Dark Color Logo Dimentions"
+msgstr ""
+
+#: ../includes/resource/options/logo_setting.php:121
+msgid "Select Dark Color Logo Dimentions"
+msgstr ""
+
+#: ../includes/resource/options/search_setting.php:7
+msgid "Search Page Settings"
+msgstr ""
+
+#: ../includes/resource/options/search_setting.php:23
+msgid "Search Source Type"
+msgstr ""
+
+#: ../includes/resource/options/search_setting.php:67
+msgid "Search Default"
+msgstr ""
+
+#: ../includes/resource/options/sidebar_setting.php:3
+msgid "Custom Sidebar Settings"
+msgstr ""
+
+#: ../includes/resource/options/sidebar_setting.php:11
+msgid "Dynamic Custom Sidebar"
+msgstr ""
+
+#: ../includes/resource/options/sidebar_setting.php:12
+msgid "This section is used to create custom sidebar"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:3
+msgid "Single Post Settings"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:11
+msgid "Single Post Source Type"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:32
+msgid "Post Default"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:38
+msgid "Show Date"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:39
+msgid "Enable to show post publish date on posts detail page"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:47
+msgid "Enable to show author on posts detail page"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:54
+msgid "Show Comments"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:55
+msgid "Enable to show number of comments on posts single page"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:62
+msgid "Show Tags"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:63
+msgid "Enable to show post tags on posts single page"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:70
+msgid "Show Facebook Post Share"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:71
+msgid "Enable to show Post Share to Facebook"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:78
+msgid "Show Twitter Post Share"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:79
+msgid "Enable to show Post Share to Twitter"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:86
+msgid "Show Linkedin Post Share"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:87
+msgid "Enable to show Post Share to Linkedin"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:94
+msgid "Show Pinterest Post Share"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:95
+msgid "Enable to show Post Share to Pinterest"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:102
+msgid "Show Reddit Post Share"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:103
+msgid "Enable to show Post Share to Reddit"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:110
+msgid "Show Tumblr Post Share"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:111
+msgid "Enable to show Post Share to Tumblr"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:118
+msgid "Show Digg Post Share"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:119
+msgid "Enable to show Post Share to Digg"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:128
+msgid "Show Author Box"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:129
+msgid "Enable to show Author Box"
+msgstr ""
+
+#: ../includes/resource/options/single_post_setting.php:135
+#: ../includes/resource/options/social_setting.php:21
+msgid "Social Profiles"
+msgstr ""
+
+#: ../includes/resource/options/social_setting.php:5
+msgid "Social Setting"
+msgstr ""
+
+#: ../includes/resource/options/social_setting.php:31
+msgid "icon"
+msgstr ""
+
+#: ../includes/resource/options/social_setting.php:41
+msgid "Profile URL"
+msgstr ""
+
+#: ../includes/resource/options/tag_setting.php:4
+msgid "Tag Page Settings"
+msgstr ""
+
+#: ../includes/resource/options/tag_setting.php:12
+msgid "Tag Source Type"
+msgstr ""
+
+#: ../includes/resource/options/tag_setting.php:34
+msgid "Tag Default"
+msgstr ""
+
+#: ../includes/resource/options/typography_setting.php:9
+msgid "Typography Settings"
+msgstr ""
+
+#: ../page.php:43
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:74
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../searchform.php:16
+msgid "Search here..."
+msgstr ""
+
+#: ../searchform1.php:17
+msgid "Search Here"
+msgstr ""
+
+#: ../single-country.php:56 ../single-country.php:120 ../single-jobs.php:56
+#: ../single-jobs.php:64 ../single-service.php:74 ../single-service.php:95
+#: ../single-visa.php:55 ../single-visa.php:71 ../single-visa.php:92
+#: ../templates/footer/footer_v3.php:31 ../templates/header/header_v2.php:192
+#: ../templates/header/header_v3.php:206
+msgid "Awesome Image"
+msgstr ""
+
+#: ../single-jobs.php:96
+msgid "Posted on:"
+msgstr ""
+
+#: ../single.php:55 ../templates/blog/blog.php:29
+msgid "BY:"
+msgstr ""
+
+#: ../single.php:73
+msgid "Pages: "
+msgstr ""
+
+#: ../single.php:81 ../templates/blog-single/single-content.php:141
+msgid "Tags:"
+msgstr ""
+
+#: ../single.php:88
+msgid "Share"
+msgstr ""
+
+#: ../single.php:124
+msgid "Previous Post"
+msgstr ""
+
+#: ../single.php:130
+msgid "Next Post"
+msgstr ""
+
+#: ../templates/blog-single/author_box.php:11
+msgid "By"
+msgstr ""
+
+#: ../templates/blog-single/single-content.php:103
+msgid "By "
+msgstr ""
+
+#: ../templates/blog-single/tags.php:37
+msgid "tags:"
+msgstr ""
+
+#: ../templates/blog-single/tags.php:71
+msgid "categories:"
+msgstr ""
+
+#: ../templates/blog/blog.php:40
+msgid "Read More"
+msgstr ""
+
+#: ../templates/custom-posts/single-project.php:33
+msgid "Posted In:"
+msgstr ""
+
+#: ../templates/custom-posts/single-project.php:97
+msgid "closed"
+msgstr ""
+
+#: ../templates/custom-posts/single-project.php:119
+msgid "Social Sharing:"
+msgstr ""
+
+#: ../templates/footer/footer_v2.php:36 ../templates/header/header_v3.php:45
+#: ../templates/header/header_v3.php:48
+msgid "awesome images"
+msgstr ""
+
+#: ../templates/header/header_v2.php:165 ../templates/header/header_v3.php:179
+msgid "X"
+msgstr ""
+
+#: ../templates/header/header_v3.php:124
+msgid "MobileLogo"
+msgstr ""

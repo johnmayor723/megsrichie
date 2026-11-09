@@ -1,0 +1,33 @@
+.imi-bottom-cta-content {
+	justify-content: end;
+	.imi-consulting-text-area {
+		max-width: 610px;
+		padding: 90px 0px 60px;
+	}
+	.imi-bottom-cta-img {
+		left: -50px;
+		bottom: 0;
+	}
+}
+.imi-consulting-cta-btn-grp {
+	margin-top: 50px;
+	.imi-btn-1 {
+		margin-right: 30px;
+	}
+	.imi-consulting-cta {
+		padding-top: 0;
+	}
+	.imi-consulting-cta .inner-text span {
+		color: #000000;
+		font-weight: 500;
+	}
+	.imi-consulting-cta .inner-icon {
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		i {
+			color: #000000;
+			font-size: 25px;
+		}
+	}
+}
